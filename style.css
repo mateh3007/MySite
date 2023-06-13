@@ -16,7 +16,7 @@ header {
 }
 
 .sidebar {
-  justify-content: center;
+  position: relative;
   background-color: rgb(31, 31, 33);
   width: 250px;
   height: 100%;
@@ -44,4 +44,12 @@ nav ul li a {
 
 nav ul li a:hover {
   color: #fff;
+}
+
+.copy {
+  padding: 10px;
+  margin-bottom: 50px;
+  color: #ffffff5b;
+  position: absolute;
+  bottom: 0;
 }
